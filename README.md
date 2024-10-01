@@ -57,6 +57,9 @@ b. Jika pengguna memilih "n", perulangan berhenti dan program selesai.
 
 c. Jika input tidak sesuai ("y" atau "n"), menampilkan pesan error dan keluar dari perulangan.
 
+![image](https://github.com/user-attachments/assets/2f444878-3133-4a5c-8ac3-192971317b67)
+
+
 
 
 

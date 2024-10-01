@@ -1,6 +1,6 @@
-#### Praktikum PosTest 1
+##### Praktikum PosTest 1
 Irvan Alif | 2409116071 | Sistem informasi kelas B
-## flowchart
+## FLOWCHART
 
 ![Praktikum PosTest 1() drawio (1)](https://github.com/user-attachments/assets/d1a04ff9-88a2-4993-8eb5-b45b536ea026)
 

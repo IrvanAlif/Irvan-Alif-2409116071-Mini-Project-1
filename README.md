@@ -49,19 +49,52 @@ b. Jika jam kerja kurang dari 160 jam, menampilkan gaji tanpa bonus.
 
 
 ## DETAIL
-43-52 (penentuan apakah mengulang atau tidak)
 
-a. Meminta input apakah ingin menghitung ulang gaji. Jika "y", perulangan dilanjutkan.
+print("______________________________ \n")
+print(" Mini Project 1 (NIM Ganjil)")
+print("         Irvan Alif")
+print("         2409116071")
+print("______________________________ \n")
 
-b. Jika pengguna memilih "n", perulangan berhenti dan program selesai.
+NAMA = "Irvan Alif"
+NIM = 2409116071
 
-c. Jika input tidak sesuai ("y" atau "n"), menampilkan pesan error dan keluar dari perulangan.
+while True:
+    print("           LOGIN            ")
+    print("MASUKKAN USENAME DAN PASSWORD")
+    USERNAME = str(input("Username:"))
+    PASSWORD = int(input("Password:"))
+    
+    if USERNAME == "I" and PASSWORD == 71: 
+        print("____________________________ \n")
+        print("Halo selamat datang, " + NAMA)
+        print(NIM)
+        break
+        
+    else:
+        print("login gagal, unsername atau password salah")  
 
-![image](https://github.com/user-attachments/assets/48a5bfb6-1ae4-4071-ab31-8b450e11dd93)
-
-
-
-
+while True:
+    print("_______________________________________________ \n")
+    print("MENGHITUNG JUMLAH GAJI YANG DI TERIMA KARYAWAN")
+    jam_kerja = int(input("masukkan jam kerja:"))
+    gaji = int(input("masukkan tarif kerja:"))
+    bonus = 0.1 * gaji
+    if jam_kerja >= 160:
+        print("Gaji anda + bonus")
+        print(int(bonus + gaji))
+    elif jam_kerja < 160:
+        print("Gaji anda")
+        print(int(gaji))
+    ulangi_perintah = str(input("ingin menghitung ulang gaji?(y/n) ")).lower()
+    if ulangi_perintah == "y":
+        print()
+    elif ulangi_perintah == "n":
+        print("Selesai menghitung gaji")
+        break
+    else:
+        print("EROR")
+        break
 
 
 

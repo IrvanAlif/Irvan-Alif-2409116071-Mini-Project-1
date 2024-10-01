@@ -10,7 +10,7 @@ Irvan Alif | 2409116071 | Sistem informasi kelas B
 ![image](https://github.com/user-attachments/assets/c7155bdf-d50e-4dd3-946b-e104032e9578)
 
 3. membuat username dan password
-4. melakukan print(tampilkan) nama dan nim saat pasword benar, tetapi jika username dan pasword salah akan kembali ke awal menginput
+4. melakukan print(tampilkan) nama dan nim saat username dan pasword benar, tetapi jika username dan pasword salah akan kembali ke awal menginput
   
  ![image](https://github.com/user-attachments/assets/e7b3814a-d465-4f48-ba35-ff613d59959a)
 

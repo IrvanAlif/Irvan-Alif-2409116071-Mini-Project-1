@@ -2,36 +2,63 @@
 Irvan Alif | 2409116071 | Sistem informasi kelas B
 ## flowchart
 
-![Praktikum PosTest 1() drawio (1)](https://github.com/user-attachments/assets/88d6ac48-3e06-442b-9fb2-69d93a560c7d)
+![Praktikum PosTest 1() drawio (1)](https://github.com/user-attachments/assets/d1a04ff9-88a2-4993-8eb5-b45b536ea026)
 
-1. Pembuatan variabel nama dan nim untuk di print(tampilkan) jika berhasil login
-2. membuat tempat menginput username dan password
+## DETAIL
+8-16 (Login loop):
 
-![image](https://github.com/user-attachments/assets/c7155bdf-d50e-4dd3-946b-e104032e9578)
+a. Membuat variabel Nama dan NIM
 
-3. membuat username dan password
-4. melakukan print(tampilkan) nama dan nim saat username dan pasword benar, tetapi jika username dan pasword salah akan kembali ke awal menginput
-  
- ![image](https://github.com/user-attachments/assets/e7b3814a-d465-4f48-ba35-ff613d59959a)
+B. Memulai perulangan untuk proses login.
 
- 5. saat berhasil login masuk ke penghitungan gaji karyawan
- 6. menginput waktu kerja karyawan dan jumlah gaji yang di terima
- 7. menghitung jumlah bonus 10% dari jumlah gaji karyawan
+C. Menampilkan pesan untuk meminta USERNAME dan PASSWORD, lalu menunggu input dari pengguna.
 
-![image](https://github.com/user-attachments/assets/1efc8be3-12f1-4f8f-892e-281ae7553556)
+![image](https://github.com/user-attachments/assets/ae910baa-0ccf-4dab-a228-562761a7aa1f)
 
-8. mengecek apakah jam kerja karyawan lebih dari atau sama dengan 160 jam atau kurang dari 160 jam
-9. saat jam kerja karyawa lebih dari atau sama dengan 160 jam maka akan mendapat bonus 10% dari jumlah gaji karyawan
-10. tetapi, jika jam kerja karyawan kurang dari 160 jam maka karyawan hanya mendapatkan gaji saja tanpa bonus
+## DETAIL
+18-25 (pengecekan username dan password):
 
-![image](https://github.com/user-attachments/assets/08eed7a1-8262-4f4d-b525-ce5ad0761a3a)
+a. Mengecek apakah USERNAME dan PASSWORD sesuai (disini username "I" dan password "71").
 
-11. Menanyakan apakah ingin menghitung ulang gaji
-12. saat memilih "y" maka akan kembali ke awal menginput waktu dan gaji karyawan
-13. saat memilih "n" maka akan menutup/keluar dari program
-14. saat memilih selain "y" dan "n" maka akan menutup program dan menampilkan pesan "EROR" eror
+b. Jika benar, menampilkan pesan selamat datang dan NIM, lalu keluar dari perulangan.
 
-![image](https://github.com/user-attachments/assets/1fe216c4-4bc4-4dac-a0a9-fba2bfe7c46e)
+c. Jika salah, kembali ke awal input
+
+![image](https://github.com/user-attachments/assets/ca50529a-7d94-4d7b-b9f3-a052161ae886)
+
+## DETAIL
+27-33 (penginputan gaji loop):
+
+a. Memulai perulangan untuk menghitung gaji karyawan.
+
+b. Meminta input jam kerja dan tarif gaji.
+
+c. Menghitung bonus sebesar 10% dari gaji.
+
+ ![image](https://github.com/user-attachments/assets/85813747-23eb-4c42-b78d-1f1f9614fda6)
+
+
+## DETAIL
+35-41 (penentuan gaji)
+
+a. Mengecek apakah jam kerja lebih dari atau sama dengan 160 jam. Jika ya, menampilkan gaji dengan bonus.
+
+b. Jika jam kerja kurang dari 160 jam, menampilkan gaji tanpa bonus.
+
+![image](https://github.com/user-attachments/assets/24625637-7bff-4871-893c-476ccb3c2e71)
+
+
+## DETAIL
+43-52 (penentuan apakah mengulang atau tidak)
+
+a. Meminta input apakah ingin menghitung ulang gaji. Jika ya, perulangan dilanjutkan.
+
+b. Jika pengguna memilih "n", perulangan berhenti dan program selesai.
+
+c. Jika input tidak sesuai ("y" atau "n"), menampilkan pesan error dan keluar dari perulangan.
+
+![image](https://github.com/user-attachments/assets/48a5bfb6-1ae4-4071-ab31-8b450e11dd93)
+
 
 
 

@@ -59,7 +59,9 @@ c. Jika input tidak sesuai ("y" atau "n"), menampilkan pesan error dan keluar da
 
 ![image](https://github.com/user-attachments/assets/2f444878-3133-4a5c-8ac3-192971317b67)
 
+##OUTPT
 
+![image](https://github.com/user-attachments/assets/7ab7043b-0061-4c25-b712-e5952b17258b)
 
 
 

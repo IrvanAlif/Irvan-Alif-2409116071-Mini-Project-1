@@ -51,7 +51,7 @@ b. Jika jam kerja kurang dari 160 jam, menampilkan gaji tanpa bonus.
 ## DETAIL
 43-52 (penentuan apakah mengulang atau tidak)
 
-a. Meminta input apakah ingin menghitung ulang gaji. Jika ya, perulangan dilanjutkan.
+a. Meminta input apakah ingin menghitung ulang gaji. Jika "y", perulangan dilanjutkan.
 
 b. Jika pengguna memilih "n", perulangan berhenti dan program selesai.
 

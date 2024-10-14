@@ -9,7 +9,7 @@ gambar 1
 
 line 1
 
-- untuk mengimport prettytable
+- code(from prettytable import PrettyTable) untuk mengimport prettytable agar bisa membuat tabel
 
 
 ![image](https://github.com/user-attachments/assets/80a74881-579b-4fad-9da0-242d7cafd126)
@@ -19,7 +19,8 @@ gambar 2
 
 line 3 - 4
 
-- dictionary yang berisi username dan password admin untuk login ke menu administrasi
+- code (def admin():
+    return {"username": "admingg", "password": "999"})dictionary yang berisi username dan password admin untuk login ke menu administrasi
 
 ![image](https://github.com/user-attachments/assets/43f6d409-d786-437d-bf75-cbe8478e3a96)
 
@@ -28,8 +29,14 @@ gambar 3
 line 6 - 21
 
 -  mencari apakah nama member sudah ada dalam list membership
-
 - Jika nama member ditemukan, pengguna dapat menambahkan jenis membership. Jika tidak, muncul pesan error
+- code(def buat_membership():) untuk membuat fungsi create
+- code(input) untuk mengetik nama atau jenis yang ingin di cari
+- code (temukan = False)di gunakan untuk mencari nama yang di inputkan
+- code (for member in membership:) artinya list member di dictionery membership
+- (if member["member"] == nama_member:) artinya jika nama yang di tulis di temukan di list member key member
+- (member["jenis"] = jenis_membership) artinya jenis membership yang di ketik dan ada di list member  key jenis
+- (return) buat manggil kembali nilai
 
 ![image](https://github.com/user-attachments/assets/f27a341f-d216-41eb-bbbf-81c782113d57)
 
@@ -39,6 +46,7 @@ gambar 4
 line 22 - 30
 
 - menampilkan daftar membership dalam bentuk tabel dengan kolom: No, Nama, Jenis Membership, dan Transaksi
+- (
   
 
 ![image](https://github.com/user-attachments/assets/f62d68eb-8cc8-45fd-aab0-2252bef5bbd5)
@@ -128,6 +136,17 @@ line 174 -175
 
 
 ![image](https://github.com/user-attachments/assets/66eda3dd-cc73-4487-a9fc-19fbedeb1561)
+
+
+
+gambar 13
+
+OUTPUT
+
+![image](https://github.com/user-attachments/assets/d4a0b6b9-834e-4d50-a54b-23ca89556f42)
+![image](https://github.com/user-attachments/assets/af157fba-142c-4105-94d1-95dc5eb6c1d6)
+![image](https://github.com/user-attachments/assets/c91db8d1-35f4-4bfb-9357-0e109afdadd2)
+![image](https://github.com/user-attachments/assets/0b07a7d2-7a68-495e-9472-d7d4fa2af66f)
 
 
 
